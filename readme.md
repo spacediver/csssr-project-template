@@ -4,7 +4,7 @@
 ## Старт проекта (Docker)
 
 ```
-docker build -t csssr . && docker run --rm -p 3000:3000 csssr
+docker build -t csssr . && docker run --rm -ti -p 3000:3000 csssr
 ```
 
 ## Старт проекта
